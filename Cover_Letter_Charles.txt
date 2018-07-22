@@ -1,0 +1,14 @@
+Dear Officer, 
+
+I'm looking for software developer intern position in Fall 2018. 
+
+As a graduate student with A+ on all courses, I think it will be essential to have experience in industries with real products to have an understanding of coding for the true customers and realize the difference between that and coding courses' projects. Besides, internship experience would make me better gain the knowledge from future courses. 
+
+3-month experience in IBM taught me the importance of the integrity of the coding products. Combined with the effectiveness and efficiency I learned from 15-month experience in startups, I now consider myself as a qualified software developer. 
+
+There are two difficult projects mostly refined my skills. One is that I built the entire backends of an IOS app in React-Native from scratch with two frontend developers. The app served around 100,000 customers and 200 restaurants in Shanghai, China. The other project is to build a distributed system with strong consistency. After perfectly synchronized the requests among frontends, primary, and secondaries under any failure scenarios, I greatly enhanced both the view of the overall distributed system and the details of implementation. 
+
+As a software developer, I have the strong passion, quick brain, great skills, formatted coding behavior. I would say that I am effective, efficient, and productive. 
+
+Best regards, 
+Charles(Yunjie Ge)
