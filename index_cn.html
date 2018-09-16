@@ -26,22 +26,40 @@
                     <li>
                         <label class="left-label">姓名</label><span class="label-value">葛昀杰</span></li>
                     <li>
+                        <label class="left-label">手机</label><span class="label-value">+1(628)213-9182</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">yge7@dons.usfca.edu</span></li>
+                    <li>
                         <label class="left-label">LinkedIn</label><span class="label-value">https://www.linkedin.com/in/charles-ge-4292aa12a/</span></li>
                     <li>
                         <label class="left-label">Github</label><span class="label-value">https://github.com/CharlesGe129</span></li>
                 </ul>
             </div>
-            <div class="contact info-unit" style="position: relative; top: -20px;">
-                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+
+            <div class="skill info-unit" style="margin-top: -40px;">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">Skills</span></h2>
                 <hr>
-                <ul class="info-list">
+                <ul class="progress-list">
                     <li>
-                        <label class="left-label">手机</label><span class="label-value">+1(628)213-9182</span></li>
+                        <label class="left-label">Python</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
                     <li>
-                        <label class="left-label">邮箱</label><span class="label-value">yge7@dons.usfca.edu</span></li>
+                        <label class="left-label">Java</label>
+                        <progress value="75" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">React Native</label>
+                        <progress value="65" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">PHP</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
                 </ul>
             </div>
-            <div class="education info-unit right-list">
+
+            <div class="education info-unit right-list" style="margin-top: -15px;">
                 <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
                 <hr>
                 <h3>硕士：University of San Francisco</h3>
@@ -77,7 +95,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="trophy info-unit">
+            <div class="trophy info-unit" style="margin-top: -15px;">
                 <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">个人奖项</span></h2>
                 <hr>
                 <ul class="experience-list">
@@ -95,7 +113,7 @@
                     </li>
                 </ul>                   
             </div>
-            <div class="aboutme info-unit right-paragraph">
+            <div class="aboutme info-unit right-paragraph" style="margin-top: -15px;">
                 <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">个人综述</span></h2>
                 <hr>
                 <p>
@@ -186,15 +204,32 @@
                 <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
                 <hr>
 
-                <h3>微信聊天记录存储系统[Django]</h3>
+                <h3>比特流[Java]</h3>
                 <ul>
                     <li>
-                        <p>用微信接口liuwons/wxBot登陆微信并连接账号</p>
+                        <p>实现了由1个tracker和10个用户租成的比特流系统</p>
                     </li>
                 </ul>
-                <ul style="margin-top: -15px">
+                <ul style="margin-top: -10px">
                     <li>
-                        <p>将实时收到的所有文本信息、图片、语音存储到数据库</p>
+                        <p>请求文件根据其大小被分成若干块。通过SHA-1哈希的数值及每一块的目标下载地址构成种子文件</p>
+                    </li>
+                </ul>
+                <ul style="margin-top: -10px">
+                    <li>
+                        <p>如果下载过程中文件提供者下线，下载者会问Tracker索要新的下载地址并重启该部分的下载</p>
+                    </li>
+                </ul>
+
+                <h3>分布式系统[Java]</h3>
+                <ul>
+                    <li>
+                        <p>用被动拷贝模式和暴力选举算法实现了强一致性分布式系统，包括2个前端，1个主节点和3个副节点</p>
+                    </li>
+                </ul>
+                <ul style="margin-top: -10px">
+                    <li>
+                        <p>每一个前端请求和主节点请求分别被标记一个id，使得当请求从前端发送到主节点再从主节点同步到所有副节点之间的任一时刻，主节点出错后，新选出的主节点能够正确地重新执行用户的请求，并保证数据不会出错</p>
                     </li>
                 </ul>
 
@@ -232,39 +267,22 @@
                     </li>
                 </ul>
 
-                <h3>分布式系统[Java]</h3>
-                <ul>
-                    <li>
-                        <p>用被动拷贝模式和暴力选举算法实现了强一致性分布式系统，包括2个前端，1个主节点和3个副节点</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -10px">
-                    <li>
-                        <p>每一个前端请求和主节点请求分别被标记一个id，使得当请求从前端发送到主节点再从主节点同步到所有副节点之间的任一时刻，主节点出错后，新选出的主节点能够正确地重新执行用户的请求，并保证数据不会出错</p>
-                    </li>
-                </ul>
-
-                <h3>比特流[Java]</h3>
-                <ul>
-                    <li>
-                        <p>实现了由1个tracker和10个用户租成的比特流系统</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -10px">
-                    <li>
-                        <p>请求文件根据其大小被分成若干块。通过SHA-1哈希的数值及每一块的目标下载地址构成种子文件</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -10px">
-                    <li>
-                        <p>如果下载过程中文件提供者下线，下载者会问Tracker索要新的下载地址并重启该部分的下载</p>
-                    </li>
-                </ul>
-
                 <h3>进制转换器[3个版本: C, Go, Rust]</h3>
                 <ul>
                     <li>
                         <p>在二进制、十进制、十六进制之间进行数值转换。支持位长和输入文本范围的设置</p>
+                    </li>
+                </ul>
+
+                <h3>微信聊天记录存储系统[Django]</h3>
+                <ul>
+                    <li>
+                        <p>用微信接口liuwons/wxBot登陆微信并连接账号</p>
+                    </li>
+                </ul>
+                <ul style="margin-top: -15px">
+                    <li>
+                        <p>将实时收到的所有文本信息、图片、语音存储到数据库</p>
                     </li>
                 </ul>
 
