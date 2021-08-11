@@ -14,10 +14,10 @@
 
 <body>
     <div class="container" id="cv" style="height: 100%">
-        <div class="side" style="height: 100%; padding-top: 30px;">
+        <div class="side" style="height: 100%; padding-top: 15px;">
             <div class="me">
-                <h1 id="username" >Charles Ge</h1>
-                <h4 id="persona-tag" >Java / Python / React / Web apps</h4>
+                <h1 id="username" >Charles</h1>
+                <h4 id="persona-tag" >Golang / Python / Web apps</h4>
             </div>
             <div class="profile info-unit">
                 <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
@@ -26,56 +26,51 @@
                     <li>
                         <label class="left-label">姓名</label><span class="label-value">葛昀杰</span></li>
                     <li>
-                        <label class="left-label">手机</label><span class="label-value">+1(628)213-9182</span></li>
-                    <li>
-                        <label class="left-label">邮箱</label><span class="label-value">yge7@dons.usfca.edu</span></li>
-                    <li>
-                        <label class="left-label">LinkedIn</label><span class="label-value">https://www.linkedin.com/in/charles-ge-4292aa12a/</span></li>
+                        <label class="left-label">邮箱</label><span class="label-value">char1209ge@163.com</span></li>
                     <li>
                         <label class="left-label">Github</label><span class="label-value">https://github.com/CharlesGe129</span></li>
                 </ul>
             </div>
-
             <div class="skill info-unit" style="margin-top: -40px;">
-                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">Skills</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技术栈</span></h2>
                 <hr>
                 <ul class="progress-list">
                     <li>
-                        <label class="left-label">Python</label>
+                        <label class="left-label">Golang</label>
                         <progress value="80" max="100"></progress>
                     </li>
                     <li>
-                        <label class="left-label">Java</label>
-                        <progress value="75" max="100"></progress>
+                        <label class="left-label">Python</label>
+                        <progress value="70" max="100"></progress>
                     </li>
                     <li>
-                        <label class="left-label">React Native</label>
-                        <progress value="65" max="100"></progress>
-                    </li>
-                    <li>
-                        <label class="left-label">PHP</label>
-                        <progress value="60" max="100"></progress>
+                        <label class="left-label">React</label>
+                        <progress value="50" max="100"></progress>
                     </li>
                 </ul>
             </div>
-
             <div class="education info-unit right-list" style="margin-top: -15px;">
                 <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
                 <hr>
-                <h3>硕士：University of San Francisco</h3>
+                <h3>硕士: University of San Francisco</h3>
                 <ul>
                     <li>
                         <p>计算机科学硕士(2017秋季 - 至今)</p>
                     </li>
                 </ul>
-                <ul>
+                <ul style="margin-top: -10px;">
                     <li>
-                        <p>GPA: 4.0/4.0</p>
+                        <p>GPA: 4.0/4.0 </p>
                     </li>
                 </ul>
-                <ul>
+                <ul style="margin-top: -10px;">
                     <li>
                         <p>相关课程：软件开发原理，算法，系统架构，分布式系统开发，理解并分析Ethereum，大数据，数据库原理</p>
+                    </li>
+                </ul>
+                <ul style="margin-top: -10px;">
+                    <li>
+                        <p>毕业设计: Understanding(and Mesuring) Ethereum</p>
                     </li>
                 </ul>
                 <h3>本科：上海大学</h3>
@@ -117,91 +112,82 @@
                     <li>
                         <h4>上海大学2013年ACM夏季赛最佳新人</h4>
                     </li>
-                </ul>                   
-            </div>
-            <div class="aboutme info-unit right-paragraph" style="margin-top: -15px;">
-                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">个人综述</span></h2>
-                <hr>
-                <p>
-                    我对编程有着强烈的热情，能够很快地学习掌握新技术并且致力于解决需求与问题，且总能做到高效且有力。
-                </p>
+                </ul>
             </div>
         </div>
         <div class="main">
             <div class="work info-unit right-list">
                 <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
                 <hr>
+                
+                <h3>天壤智能: 研发工程师(2019.06 - 至今)</h3>
+                <ul>
+                    <li>
+                        <p>开发了一个支持同步和异步任务队列、支持任务运行时优雅启停的分布式AI模型管理平台。[Golang]</p>
+                    </li>
+                </ul>
+                <ul style="margin-top: -15px">
+                    <li>
+                        <p>开发了一个基于Kubernetes的容器平台，支持应用模板的定义和实例化。[Golang]</p>
+                    </li>
+                </ul>
+                <ul style="margin-top: -15px">
+                    <li>
+                        <p>开发了一个支持接入不同容器平台的OCR训练平台，包含反向代理和Pod健康检查功能。[Golang]</p>
+                    </li>
+                </ul>
+                <ul style="margin-top: -15px">
+                    <li>
+                        <p>开发了一个内容推荐平台，通过GRPC在各个微服务间通信。[Golang]</p>
+                    </li>
+                </ul>
+                <ul style="margin-top: -15px">
+                    <li>
+                        <p>维护了其他6个Web平台。重构了各个后端服务，保持web-server、web-service、core-service、repository四层结构来明确职责、使代码不会过度耦合和混乱，并给每个服务添加了1:1的集成测试。[Golang, React]</p>
+                    </li>
+                </ul>
 
                 <h3>IBM: 全职高级软件开发工程师实习(2018.05 - 2018.08)</h3>
                 <ul>
                     <li>
-                        <p>将IBM分析引擎族群的创建与自定义配置整合到同一步完成，用Python[Flask]开发了全栈UI供IBM内部员工来使用，并将其部署到IBM云</p>
+                        <p>将IBM分析引擎族群的创建与自定义配置整合到同一步完成</p>
+                    </li>
+                    <li style="margin-top: -15px">
+                        <p>用Python[Flask]开发了全栈UI供IBM内部员工来使用，并将其部署到IBM云</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">科研项目</span></h2>
+                <hr>
+
+                <h3>智能合约——资源交易[Solidity, Python]</h3>
+                <ul>
+                    <li>
+                        <p>开发了一个实现资源交易的智能合约，部署到本地以太坊环境，测算性能生成报告。 </p>
+                    </li>
+                </ul>
+                <ul style="margin-top: -10px">
+                    <li>
+                        <p>发表论文: Smart Contract-based Computing Resources Trading in Edge Computing </p>
                     </li>
                 </ul>
 
-                <h3>品味全城: 全职软件开发工程师实习兼数据库管理员(2017.01 - 2017.07)</h3>
+                <h3>以太坊Ethereum中的庞氏骗局检测[Python]</h3>
                 <ul>
                     <li>
-                        <p>用React-Native[Redux, Alipay and CMB pay]开发了一个IOS app</p>
+                        <p>爬取了已验证的庞氏骗局合约/非骗局合约源代码。 </p>
                     </li>
                 </ul>
-                <ul style="margin-top: -15px">
+                <ul style="margin-top: -10px">
                     <li>
-                        <p>用PHP[Laravel]开发了10个API，2个全新网站，并扩展了5个现有网站的模块</p>
+                        <p>根据基本特征和操作码特征，生成并分析了arff模型。 </p>
                     </li>
                 </ul>
-                <ul style="margin-top: -15px">
+                <ul style="margin-top: -10px">
                     <li>
-                        <p>用C#[ASP.NET]扩展了微信服务号后台程序，包括接入微信登陆和微信支付功能</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -15px">
-                    <li>
-                        <p>管理所有MySQL数据库，包括7个数据库和约40张表</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -15px">
-                    <li>
-                        <p>模块化开发任务并分配给其他4位实习生</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -15px">
-                    <li>
-                        <p>完成了150个左右的ticket，包括开发新应用、实现新功能、及修复bug等</p>
-                    </li>
-                </ul>
-
-                <h3>Asiahub: 全职软件开发工程师实习(2016.08 - 2016.10)</h3>
-                <ul>
-                    <li>
-                        <p>用Python对接了Mercado和Cnova的后台API（均为南美最大的电商平台之一）</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -15px">
-                    <li>
-                        <p>写了超过30个Python脚本来处理Excel数据</p>
-                    </li>
-                </ul>
-
-                <h3>品味全城: 软件开发工程师实习(2016.01 - 2016.07)</h3>
-                <ul>
-                    <li>
-                        <p>用PHP[Laravel]维护并扩展了CRM系统的10余个模块，包括懒加载和文件上传等</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -15px">
-                    <li>
-                        <p>维护了微信后台的C#[ASP.NET]程序</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -15px">
-                    <li>
-                        <p>写了超过15个Python脚本，包括每日数据分析脚本及网站爬虫</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -15px">
-                    <li>
-                        <p>完成了150个左右的ticket，包括实现新模块、修复bug等</p>
+                        <p>发表论文: Data Mining-Based Ethereum Fraud Detection </p>
                     </li>
                 </ul>
             </div>
@@ -210,7 +196,7 @@
                 <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
                 <hr>
 
-                <h3>理解并分析测量Ethereum[Golang, Python]</h3>
+                <h3>理解分析测算以太坊Ethereum[Golang, Python]</h3>
                 <ul>
                     <li>
                         <p>修改go-ethereum源代码，在监听到交易及区块时将数据记录保存到本地文件。</p>
@@ -227,24 +213,7 @@
                     </li>
                 </ul>
 
-                <h3>Ethereum区块链技术模拟开发</h3>
-                <ul>
-                    <li>
-                        <p>实现MerklePatriciaTrie数据结构，用于存储区块链的交易数据。[Go, Rust]</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -10px">
-                    <li>
-                        <p>实现区块及区块链数据结构，以及区块链与JSON之间的相互转换。[Go, Rust]</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -10px">
-                    <li>
-                        <p>实现P2P网络，用于新区快产生后的广播。[Go]</p>
-                    </li>
-                </ul>
-
-                <h3>比特流[Java]</h3>
+                <h3>比特流下载系统[Java]</h3>
                 <ul>
                     <li>
                         <p>实现了由1个tracker和10个用户租成的比特流系统</p>
@@ -272,41 +241,6 @@
                         <p>每一个前端请求和主节点请求分别被标记一个id，使得当请求从前端发送到主节点再从主节点同步到所有副节点之间的任一时刻，主节点出错后，新选出的主节点能够正确地重新执行用户的请求，并保证数据不会出错</p>
                     </li>
                 </ul>
-
-                <h3>记账系统[Ruby on Rails, Django]</h3>
-                <ul>
-                    <li>
-                        <p>收入和支出的增删改查</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -15px">
-                    <li>
-                        <p>数据的统计视图</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -15px">
-                    <li>
-                        <p>版本1: Ruby on Rails + MySQL</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -15px">
-                    <li>
-                        <p>版本2: Django + MySQL包括单元测试</p>
-                    </li>
-                </ul>
-
-                <h3>酒店管理系统[Java, JS, JQuery, html, CSS]</h3>
-                <ul>
-                    <li>
-                        <p>Servlet, Velocity, 多线程, Google Map, MySQL, 爬虫</p>
-                    </li>
-                </ul>
-                <ul style="margin-top: -15px">
-                    <li>
-                        <p>用servlet, velocity和MySQL搭建框架 </p>
-                    </li>
-                </ul>
-
             </div>
 
         </div>
